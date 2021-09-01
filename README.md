@@ -46,7 +46,7 @@ After above section, this Demo should be already download to your local machine,
 ### Folder structure
 This is the folder and package structure of Demo source code and the description
 
-- **huobi**: The core of the SDK
+- **huobi**: The core of the demo
   - **linear_swap**: The implementation of usdt swap API interface.
   - **spot**: The implementation of spot API interface.
   - **utils**: The utils functions or class, such as http, websocket and so on.
