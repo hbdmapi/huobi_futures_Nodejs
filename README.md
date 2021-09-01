@@ -9,11 +9,11 @@ And it's very happy thing that you fork the project and push your commit to add 
 - [Usage](#Usage)
     - [Folder structure](#Folder-structure)
     - [Run Examples](#Run-examples)
-- [RESTful example](#RESTful-example)
+- [RESTful examples](#RESTful-examples)
     - [Get public data](#Get-public-data)
     - [Get private data](#Get-private-data)
     - [Post private data](#Post-private-data)
-- [Websocket example](#Websocket-example)
+- [Websocket examples](#Websocket-examples)
   - [Subscribe public data](#Subscribe-public-data)
   - [Request public data](#Request-public-data)
   - [Subscribe private data](#Subscribe-private-data)
@@ -56,17 +56,21 @@ This is the folder and package structure of Demo source code and the description
 
 ### Run examples
 
-This Demo provides examples that under **/example** folder, if you want to run the examples to access private data, you need below additional steps:
+This Demo provides examples that under **/examples** folder, if you want to run the examples to access private data, you need below additional steps:
 
 1. Create an **API Key** first from Huobi official website
-2. . Assign your API access key, secret key and account_id to as below in the file examples/const.js:
+2. Assign your API access key, secret key and account_id to as below in the file examples/const.js:
 ```js
 export let access_key = 'xxx';
 export let secret_key = 'xxx';
 export let account_id = 'xxx';
 ```
+3. Run the example
+```shell
+ node examples/linear_swap_rest.js
+```
 
-If you don't need to access private data, you can ignore the file examples/const.js.
+If you don't need to access private data, you can ignore the step 1,2.
 
 #### Customized Host
 The client class support customized host so that you can define your own host in the file examples/const.js:
@@ -75,7 +79,7 @@ export let futures_host = 'api.hbdm.vn';
 export let spot_host = 'api.huobi.ae';
 ```
 
-## RESTful example
+## RESTful examples
 
 ### Get public data
 Get public data such as market kline data
@@ -120,7 +124,7 @@ order.place(account_id, 'eosusdt', 'buy-limit', 10, function (data) {
 }, 1);
 ```
 
-## Websocket example
+## Websocket examples
 
 ### Subscribe public data
 
