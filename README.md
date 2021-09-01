@@ -29,7 +29,7 @@ You can download and open the source code directly in your nodejs project, and t
 * Call the interfaces provided by client.
 
 ```js
-mport { LinearSwapRestMarket } from '../huobi/sdk.js'
+import { LinearSwapRestMarket } from '../huobi/sdk.js'
 import { futures_host, access_key, secret_key } from './const.js'
 import * as logger from '../huobi/utils/log.js'
 
