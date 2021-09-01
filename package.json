@@ -1,0 +1,23 @@
+{
+  "name": "huobi_futures_nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hbdmapi/huobi_futures_Nodejs.git"
+  },
+  "author": "adlong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hbdmapi/huobi_futures_Nodejs/issues"
+  },
+  "homepage": "https://github.com/hbdmapi/huobi_futures_Nodejs#readme",
+  "dependencies": {
+    "crypto-js": "^4.1.1"
+  }
+}
