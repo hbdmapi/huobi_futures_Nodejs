@@ -11,4 +11,4 @@ market.subKline('btcusdt', '1min');
 var account = new SpotWsAccount(spot_host, (jdata) => {
     logger.log(jdata);
 }, access_key, secret_key);
-account.subAccounts(3);
+account.subAccounts(1);

@@ -21,6 +21,6 @@ account.getAccount(function(data){
 
 var order = new SpotRestOrder(spot_host, access_key, secret_key);
 order.place(account_id, 'eosusdt', 'buy-limit', 10, function (data) {
-    logger.log('\nget private data.')
+    logger.log('\npos private data.')
     logger.log(data);
 }, 1);
