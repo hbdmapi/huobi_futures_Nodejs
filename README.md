@@ -21,7 +21,7 @@ And it's very happy thing that you fork the project and push your commit to add 
 
 ## Quick Start
 
-*The SDK is writed and run at nodejs 16.0 or above*
+*The Demo is writed and run at nodejs 16.0 or above*
 
 You can download and open the source code directly in your nodejs project, and then you can follow below steps:
 
